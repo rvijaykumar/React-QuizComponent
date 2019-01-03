@@ -14,7 +14,7 @@ class QuizQuestion extends Component {
       this.setState((state) => {
         return {incorrectAnswer: false}
       })
-      confirm('Move to the next question?')
+      //confirm('Move to the next question?')
       this.props.showNextQuestionHandler()
     } else {
       this.setState((state) => {
